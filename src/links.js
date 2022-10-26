@@ -3,7 +3,7 @@ export const data = [
     id: 'btn__twitter',
     url:
         'https://twitter.com/',
-    title: 'Twitter',
+    title: 'Twitter Link',
     desc: 'Connect with me on Twitter'
     },
     {
