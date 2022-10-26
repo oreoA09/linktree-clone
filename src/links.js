@@ -1,4 +1,4 @@
-export const links = [
+export const data = [
     {
     id: 'btn__twitter',
     url:
