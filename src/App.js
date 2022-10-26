@@ -7,8 +7,9 @@ import HeaderBtn from './images/share_icon.png'
 import Profile from './images/profilepic.png'
 import SlackIcon from './images/slack_icon.png'
 import GithubIcon from './images/github_icon.png'
-import ZuriInternLogo from './images/zuriinternship_logo.png'
+import ZuriInternLogo from './images/zuriInternship_logo.png'
 import I4GoodLogo from './images/i4g_logo.png'
+
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <section className='header'>
           <img src={HeaderBtn} alt='share btn'/>
           <div>
-            <img src={Profile} id='profile__img' alt='profile image'/>
+            <img src={Profile} id='profile__img' alt=''/>
             <h3 id='twitter'>Annette Black</h3>
             <p id='slack'>@annetteBlack</p>
           </div>
@@ -27,13 +28,13 @@ function App() {
           })} 
         </section>
         <section className='icons'>
-          <img src={SlackIcon} alt='slack btn'/>
-          <img src={GithubIcon} alt='github btn'/>
+          <img src={SlackIcon} alt='slack icon'/>
+          <img src={GithubIcon} alt='github icon'/>
         </section>
         <section className='footer'>
-        <img src={HeaderBtn} alt='share btn'/>
-        <span></span>
-        <img src={HeaderBtn} alt='share btn'/>
+        <img src={ZuriInternLogo} alt='zuriinternship logo'/>
+        <span>HNG Internship 9 Frontend Task</span>
+        <img src={I4GoodLogo} alt='i4good logo'/>
         </section>
     </div>
   );
